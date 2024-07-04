@@ -1,6 +1,3 @@
-# Introduction/ Features
-TBC
-
 # Project Structure
 - AI-models/
     - BERT_hateful_comment_classification.ipynb
@@ -12,7 +9,13 @@ TBC
 - saved-models: contains saved models after training
 
 # Machine Learning Models
-TBC
+
+The project perform an NLP task of classifying hateful language using 3 different machine learning models, from simple to complex, with abilities to capture context.
+
+I start with simple neural networks that convert text into embedding vectors and learn patterns. However, these models are not very effective at capturing context. To address this, I use a CNN model that extracts local features and learns from them. Despite this improvement, the model is still limited in its ability to understand context fully.
+
+BERT, however, offers a different representation where the same word can have different values depending on the context. This progression reflects the increasing sophistication of models in capturing the richness and complexity of human language.
+
 
 ## Simple Neural Network
 ![simple](./img/simple.png)
